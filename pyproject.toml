@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "mnist"
+name = "supervised_learning"
 version = "0.1.0"
-description = "Implementation of classifying MNIST dataset with PyTorch"
+description = "Implementation of supervised learning techniques on image classification datasets with PyTorch"
 authors = ["Nathan Van Utrecht <nvanutrecht@gmail.com>"]
 readme = "README.md"
 
