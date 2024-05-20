@@ -6,8 +6,8 @@ authors = ["Nathan Van Utrecht <nvanutrecht@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-torch = "^2.3.0"
+python = "^3.11"
+torch = {version = "^2.3.0+cu118", source = "torch118"}
 numpy = "^1.26.4"
 ipykernel = "^6.29.4"
 pillow = "^10.3.0"
@@ -16,6 +16,11 @@ matplotlib = "^3.8.4"
 [tool.poetry.group.dev.dependencies]
 torchvision = "^0.18.0"
 ipykernel = "^6.29.4"
+
+[[tool.poetry.source]]
+name = "torch118"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
 
 [build-system]
 requires = ["poetry-core"]
