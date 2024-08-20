@@ -29,8 +29,8 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/image-classification-mnist-cifar.git
-   cd image-classification-mnist-cifar
+   git clone https://github.com/nvan21/Image-Classification-Tutorials
+   cd Image-Classification-Tutorials
    ```
 
 2. **Install the dependencies:**
